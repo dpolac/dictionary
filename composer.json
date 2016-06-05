@@ -1,0 +1,34 @@
+{
+    "name": "dpolac/dictionary",
+    "type": "library",
+    "description": "Collection indexed with objects and scalars",
+    "keywords": [
+        "array",
+        "dictionary",
+        "hash",
+        "splObjectStorage"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damian Polac",
+            "email": "damian.polac.111@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.4 || ^7.0",
+        "ext-spl": "*"
+    },
+    "reguire-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DPolac\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
